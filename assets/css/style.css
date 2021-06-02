@@ -591,7 +591,6 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #245685;
-  font-size: 18px;
 }
 
 .portfolio #portfolio-flters li:last-child {
