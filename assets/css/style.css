@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #535b45;
+  color: #01366A;
 }
 
 a {
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #B8D7F4;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -46,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #B8D7F4;
   color: #fff;
 }
 
@@ -79,9 +79,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid #c4d5e6;
+  border-top-color: #b6cee5;
+  border-bottom-color: #96b8da;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -299,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #023a6e;
   letter-spacing: 1px;
 }
 
