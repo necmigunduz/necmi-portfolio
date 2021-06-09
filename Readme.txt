@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://portfolio-necmi.herokuapp.com/)
+[Live Demo Link](https://portfolio-necmi-gunduz.netlify.app/)
 [Github Link](https://github.com/necmigunduz/necmi-portfolio)
 
 ## Author
