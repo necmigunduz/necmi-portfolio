@@ -429,7 +429,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: rgb(117, 17, 17);
 }
 
 .facts .count-box i {
