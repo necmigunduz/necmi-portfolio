@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #010B13;
+  color:#000000;
 }
 
 @media (min-width: 992px) {
