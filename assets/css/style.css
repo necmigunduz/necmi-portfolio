@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #355492;
+  background:#9AA6BC;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #2A4055;
+  color: #010B13;
 }
 
 @media (min-width: 992px) {
