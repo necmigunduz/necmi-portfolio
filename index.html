@@ -5,13 +5,19 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>MyResume Bootstrap Template - Index</title>
+  <title>Necmi Gunduz's Webpage</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!--CSS Animation-->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/ng-sl.png" rel="icon">
+  <link href="assets/img/ng.png" rel="ng">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -26,6 +32,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+
+
 
   <!-- =======================================================
   * Template Name: MyResume - v4.1.0
@@ -46,32 +55,157 @@
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-code-square"></i><span>Skills</span></a></li>
+        <!-- <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li> -->
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> 
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav><!-- nav-menu -->
 
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Necmi Gunduz</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Economist, Photographer, Volunteer, Father of Two, Husband"></span></p>
+      <h1 classs="animate__flipInY">Necmi Gunduz</h1>
+      <p>I'm <span class="typed" data-typed-items="a <strong>Full-Stack Developer</strong>, an <strong>Economist</strong>, an <strong>Author</strong>, a <strong>Photographer</strong>, a <strong>Volunteer</strong>, a <strong>Father</strong> of Two, a <strong>Husband</strong>"></span></p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/necmigunduz" class="github" target=”_blank”><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/necmigunduz/" class="linkedin" target=”_blank”><i class="bx bxl-linkedin"></i></a>
+        <a href="https://angel.co/u/necmi-gunduz" class="angellist" target=”_blank”><i class="bi bi-briefcase-fill"></i></a>
+        <a href="https://twitter.com/necm_gun" class="twitter" target=”_blank”><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/starygun" class="facebook" target=”_blank”><i class="bx bxl-facebook"></i></a>
+        <!-- <a href="https://www.instagram.com/necmgun/" class="instagram" target=”_blank”><i class="bx bxl-instagram"></i></a> -->
+        <a href="https://www.instagram.com/myartsypieces/" class="instagram" target=”_blank”><i class="bx bxl-instagram"></i></a>
       </div>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>I have completed some projects by using Javascript, Ruby, Ruby-On-Rails, SQL, HTML5, and CSS3. You can see some of my works below.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <!-- <li data-filter=".html">HTML5 & CSS3</li> -->
+              <li data-filter=".ruby">Ruby</li>
+              <li data-filter=".ror">Ruby-On-Rails & SQL</li>
+              <li data-filter=".javascript">Javascript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item javascript">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/phaser-game.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Platform Game with Phaser3</h4>
+                <span>Javascript</span>
+                <p>This project is a platform game project developed by using Phaser3 and Javascript. A user can shoot aliean spaceships by using the direction buttons of W, S, D, and A, and the shooting button of Space.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/phaser-game.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Trade Website" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <a href="https://shooting-necmi.herokuapp.com/"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a>
+                  <a href="https://github.com/necmigunduz/phaser-js-game"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item javascript">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Weather.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Weather Today</h4>
+                <p>Javascript & API</p>
+                <p>Checking the weather conditions in different countries and cities is easy by using this weather app. This app is developed in Javascript and it uses Open Weather api.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Weather.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Trade Website" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <a href="https://weather-app-necmi.netlify.app/"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a>
+                  <a href="https://github.com/necmigunduz/weatherApp"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item javascript">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/todo.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>To-Do List</h4>
+                <p>Javascript Doms</p>
+                <p>Todo list is one of the most popular app developed for adding projects and relevant tasks with priority, date, and description. This project is developed by using JS.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/todo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Trade Website" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <a href="https://to-do-list-necmi.netlify.app/"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a>
+                  <a href="https://github.com/necmigunduz/to-do-list"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+                
+          <div class="col-lg-4 col-md-6 portfolio-item ruby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/tic-tac-toe.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Tic-Tac-Toe Game</h4>
+                <p>Ruby</p>
+                <p>This is a simple Tic-Tac-Toe game developed in Ruby. It is one of the most classic games.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tic-tac-toe.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Triple T Game" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <!-- <a href="https://github.com/necmigunduz/Triple_T_Game"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a> -->
+                  <a href="https://github.com/necmigunduz/Triple_T_Game"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+              
+          <div class="col-lg-4 col-md-6 portfolio-item javascript">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Restaurant.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Restaurant Webpage</h4>
+                <p>Javascript, HTML5&CSS3</p>
+                <p>This project is a restaurant homepage developed by using Javascript doms. Bootstrap classes are implemented to style the project. Also, there exists some CSS styling.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/Restaurant.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Restaurant Page" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <a href="https://restaurant-necmi.netlify.app/"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a>
+                  <a href="https://github.com/necmigunduz/restaurant-JS"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item ror">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/ror.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Social Media App</h4>
+                <p>Ruby on Rails</p>
+                <p>This is a simple social media app developed by using Ruby on Rails, HTML5&CSS3, and MySQL&Database. A user can create a profile with a profile and a background image, and post messages, follow others and be followed by others.</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/ror.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Restaurant Page" target=”_blank”><i class="bx bx-plus"></i></a>
+                  <a href="https://dwidder-ng.herokuapp.com/users/new"  data-glightbox="type: external" title="Live link" target=”_blank”><i class="bx bx-link"></i></a>
+                  <a href="https://github.com/necmigunduz/twitter-ror-clone"  data-glightbox="type: external" title="Github link" target=”_blank”><i class="bi bi-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -79,48 +213,45 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I am an innovative full-stack developer. I can use HTML5, CSS3, Ruby, Ruby-On-Rails, SQL, JavaScript, and React/Redux. I am an economist. I can use some econometrics, statistics and mathematics programs like STATA, Eviews, SPSS, Gauss, Octave, and Maxima. I can make economic analysis. I am a photographer. I take photos of objects with different light settings, and objects in nature. Finally, I am a social researcher and volunteer. I have developed several EU social development projects, and have taken some roles like regional director, trainer, and researcher. I still work as a volunteer in a local environmentalist non-governmental organization. </p>
+          <p>I am a software programmer who believes in the possibility of creating a new world without weapons. I would like to be a part of a global system producing peace technologies. I am an innovative programmer. I would like to make peaceful contributions to your businesses and your projects. I am an economist who believes in a global economic system where sharing output equally with all humans can create a better world for us. I am a photographer who would like to show the beauty in every piece of us and nature. I play with light to show the good, the beauty, and the meaning of life.
+          You can download my resume by clicking on the links below!</p> <a href="./assets/img/Necmi's Resume_2021.pdf" download>Resume in Acrobat PDF.</a><br><a href="./assets/img/Necmi's Resume_2021.docx" download>Resume in MS Office Word.</a>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content">
-            <h3>Full-Stack Developer &amp; Economist.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Birthyear:</strong> <span>1978</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+90 507 694 9863</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Izmir, Turkey</span></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>42</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master in Economics</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>necmigunduz@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Looking for:</strong> <span>Full-time developer position</span></li>
-                </ul>
-              </div>
+        <div class="pt-4 content text-center">
+          <h3>Full-Stack Developer &amp; Economist &amp; Photographer.</h3>
+          <p class="fst-italic">
+            I am inviting you to be a part of the peace, and I expect the same invitation from you. 
+          </p>
+          <div class="row">
+            <div class="col-lg-4">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthyear:</strong> <span>1978</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="www.necmigunduz.com">www.necmigunduz.com</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+90 507 6946983</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Izmir, TURKEY</span></li>
+
+              </ul>
             </div>
-            <p>
-              I am looking for new opportunities in my full-stack development career. I would like to work remotely, and be in a company with a diversified organizational culture. I have worked for an international non-governmental association and a university with professors and students from various countries. I am a good team member. I know how to listen to and understand other people, and develop healthy communication. 
-            </p>
+            <div class="col-lg-8">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>I feel 25</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Full-Stack Developer Degree from Microverse and Master in Economics</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:necmigunduz@gmail.com">necmigunduz@gmail.com</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Looking for:</strong> <span>A contracted full time remote programming job</span></li>
+              </ul>
+            </div>
           </div>
+          <p>
+            I have got the taste of producing something, helping others, and making others' lives better while my life betters off. I love meeting different people. So I prefer working for companies with a highly diversified organizational culture. I love all the people, and I believe that we are all equal!
+          </p>
         </div>
+
 
       </div>
     </section><!-- End About Section -->
 
     <!-- ======= Facts Section ======= -->
-<!--    <section id="facts" class="facts">
+    <!--<section id="facts" class="facts">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -164,8 +295,8 @@
 
         </div>
 
-      </div> -->
-    </section><!-- End Facts Section -->
+      </div>
+    </section>--><!-- End Facts Section -->
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -173,10 +304,14 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <div>
+            <p>I can develop in HTML5 & CSS3, Ruby, Ruby on Rails, MySQL, Javascript, React & Redux.</p> <hr>
+            <p>Also, I can use STATA, Eviews, Maxima, SPSS, and some other statistics and econometrics software. I can interpret statistics and econometrics models and their results.</p> <hr>
+            <p>I have learned English in 2 years. I have learned economics in 10 years. I have learned programming in 1 and a half years. I am still learning French, Python, and machine learning. I am good at programming, economics, and statistics. I love learning. Let me contribute to your projects and your business. I believe in sharing knowledge and learning together. Let me be a valuable part of your esteemed learning organization.</p>
+          </div>
         </div>
 
-        <div class="row skills-content">
+        <!-- <div class="row skills-content">
 
           <div class="col-lg-6">
 
@@ -188,272 +323,150 @@
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JavaScript <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill">PHP <i class="val">80%</i></span>
+              <span class="skill">CSS <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">Javascript <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <span class="skill">Ruby <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemtax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Ruby on Rails <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
+            <div class="progress">
+              <span class="skill">SQL <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React & Redux <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Statistics and Econometrics Software <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>            
+
           </div>
 
-        </div>
+        </div> -->
 
       </div>
     </section><!-- End Skills Section -->
 
     <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
+    <!-- <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>I can develop software by using HTML5&CSS3, Ruby, Ruby-On-Rails, SQL&Databases, Javascript, and React&Redux. I am fluent in written/spoken English. Turkish is my native language, and I am learning French. I will start learning Python and Machine Learning soon. I have an economist background with developed skills in statistics and econometrics. Finally, I am an amateur photographer and an amateur designer.</p>
+          <span id="download-resume"><a href="./assets/img/Resume.pdf" download>You can download my resume by clicking on this text!</a></span>
         </div>
 
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Summary</h3>
-            <div class="resume-item pb-0">
-              <h4>Necmi Gunduz</h4>
-              <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-              <ul>
-                <li>Portland par 127,Orlando, FL</li>
-                <li>(123) 456-7891</li>
-                <li>alice.barkley@example.com</li>
-              </ul>
-            </div>
-
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Fine Arts &amp; Graphic Design</h4>
-              <h5>2015 - 2016</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+              <h4>Full-stack programming (HTML5, CSS3, Ruby, SQL and Database, Ruby-On-Rails, Javascript, React&Redux)</h4>
+              <h5>2020 - 2021</h5>
+              <p><em><a href="https://www.microverse.org/">Microverse</a>, Online</em></p>
+              <p>Learned full-stack programming, cooperating with other programmers, networking, and soft skills.</p>
             </div>
             <div class="resume-item">
-              <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-              <h5>2010 - 2014</h5>
-              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-              <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+              <h4>Information and Communication Technologies to Promote Sustainable Tourism</h4>
+              <h5>2015 - 2015</h5>
+              <p><em>Universita della Svizzera Italiana, Bicocca Universita Degli Studi Di Milan, and UNESCO, Milano, Italy</em></p>
+              <p>Taken sustainable tourism and media courses.</p>
+            </div>
+            <div class="resume-item">
+              <h4>PhD of Economics</h4>
+              <h5>2004 - 2008</h5>
+              <p><em>Florida International University, Miami, Florida, US</em></p>
+              <p>Taken and passed all the economics courses at PhD level and I passed the qualification exam but I did not complete my dissertation.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Master's in Economics</h4>
+              <h5>2001 - 2004</h5>
+              <p><em>Pamukkale University, Denizli, Turkey</em></p>
+              <p>Completed my master in economics with a dissertation in Societal Health Production field.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor Degree of Economics</h4>
+              <h5>1996 - 2000</h5>
+              <p><em>Istanbul University, Istanbul, Turkey</em></p>
+              <p>Studied economics and political sciences at the Faculty of Political Sciences</p>
             </div>
           </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
-              <h4>Senior graphic design specialist</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Mentor(Volunteer)</h4>
+              <h5>2020 - Present</h5>
+              <p><em>Microverse, Remote </em></p>
               <ul>
-                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                <li>Mentored junior web developers, providing technical support through code reviews</li>
+                <li>Proposed improvements to code organization to improve code quality and overall performance </li>
+                <li>Provided advice and tips on how to maintain motivation to maintain longevity in the program</li>
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Project Advisor (Volunteer)</h4>
+              <h5>2017 - Present </h5>
+              <p><em>Innovative Ideas Association, Tekirdag, Turkey</em></p>
               <ul>
-                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                <li>Organizing online events for NGOs,</li>
+                <li>Training NGOs about social media campaigns, and reaching their targeted groups, organizations, and people.</li>
+              </ul>
+              <h4>Regional Development Specialist</h4>
+              <h5>2010 - 2016 </h5>
+              <p><em>Thrace Development Agency, Tekirdag, Turkey</em></p>
+              <ul>
+                <li>Creating database, analyzing and visualizing data,</li>
+                <li>Organizing, moderating, and monitoring focus meetings.</li>
+              </ul>
+              <h4>Teaching Assistant</h4>
+              <h5>2004 - 2008 </h5>
+              <p><em>Department of Economics, Florida International University</em></p>
+              <ul>
+                <li>Taught introductory Economics and Mathematics for Economists classes.</li>
               </ul>
             </div>
           </div>
         </div>
 
       </div>
-    </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
+    </section>End Resume Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <!--<section id="services" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -544,10 +557,10 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>--><!-- End Services Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <!--<section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -570,7 +583,7 @@
               </div>
             </div><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!--<div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                 <h3>Sara Wilsson</h3>
@@ -581,9 +594,9 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>--><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!--<div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                 <h3>Jena Karlis</h3>
@@ -594,9 +607,9 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>--><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!--<div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                 <h3>Matt Brandon</h3>
@@ -607,9 +620,9 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>--><!-- End testimonial item -->
 
-            <div class="swiper-slide">
+            <!--<div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
@@ -620,14 +633,14 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
-          </div>
+        </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>-->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -644,19 +657,19 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Remote</p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p><a href="mailto:necmigunduz@gmail.com">necmigunduz@gmail.com</a></p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+90 507 694 9863</p>
               </div>
 
             </div>
@@ -700,24 +713,18 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Brandon Johnson</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3>Necmi Gunduz</h3>
+
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/necmigunduz" class="github" target=”_blank”><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/necmigunduz/" class="linkedin" target=”_blank”><i class="bx bxl-linkedin"></i></a>
+        <a href="https://angel.co/u/necmi-gunduz" class="angellist" target=”_blank”><i class="bi bi-briefcase-fill"></i></a>
+        <a href="https://twitter.com/necm_gun" class="twitter" target=”_blank”><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/starygun" class="facebook" target=”_blank”><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/myartsypieces/" class="instagram" target=”_blank”><i class="bx bxl-instagram"></i></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: [license-url] -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
